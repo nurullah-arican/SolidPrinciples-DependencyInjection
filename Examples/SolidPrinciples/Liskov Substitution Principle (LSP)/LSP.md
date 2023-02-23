@@ -4,13 +4,13 @@ The Liskov Substitution Principle (LSP) is one of the SOLID principles for softw
 The point of LSP is that subclasses that replace a class do not change the expected behavior. Thus, it prevents unexpected errors from occurring in the code and creates a more flexible and maintainable code base.
 
 ## How does it work?
-This C++ code provides a simple example that implements the Interface Segregation Principle(ISP). The code illustrates a scenario where different devices implement a certain interface and using these interfaces devices perform certain functions.
+In the program, a base class named "Shape" and a derived class named "Rectangle" are defined. A virtual function named "draw" is defined in the "Shape" class, and this function is "Drawing a shape." prints the message to the screen. The "Rectangle" class derives from the "Shape" class and redefines the "draw" function to "Drawing a rectangle." prints the message to the screen.
 
-One interface called IPrter contains a function called print(), while another interface called IScanner contains a function called scan(). Both interfaces contain pure virtual functions. Next, the Printer class implements the IPrinter interface, while the Scanner class implements the IScanner interface.
+Also, a function named "drawShape" is defined in the program. This function takes a parameter of type "Shape" and calls the "draw" function of this parameter. In this way, the "drawShape" function can also take any of the derived classes of the "Shape" class.
 
-Next, the AllInOne class implements both the IPrinter and IScanner interfaces. This represents an integrated device that includes both a printer and a scanner.
+In the Main function, objects from the "Shape" and "Rectangle" classes are created. First, the "drawShape" function is called with an object of the "Shape" class and "Drawing a shape." message is printed. Next, the same function is called with an object of class "Rectangle" and this time "Drawing a rectangle." message is printed.
 
-The main() function first creates an instance of the Printer class, demonstrating the use of the IPrter interface. Likewise, it demonstrates its use of the IScanner interface by creating an instance of the Scanner class. Finally, it demonstrates its use of both the IPrinter and IScanner interfaces by creating an instance of the AllInOne class.
+In this way, applying the Liskov Substitution principle, the "Rectangle" class was able to replace the "Shape" class and the program worked correctly.
 
 ## Requirements
 This program is written in the C++ programming language and requires a C++ compiler. You will also need the standard library files used in this program.
