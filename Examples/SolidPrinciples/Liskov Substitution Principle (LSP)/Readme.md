@@ -28,5 +28,5 @@ You can follow the steps below to compile and run the code:
 
 3-If the compilation is successful, an executable will be created. You can use the command `"./program" (for Linux or macOS)` or `"program.exe" (for Windows)` from the terminal/command prompt to open the executable.
 
-## license
+## License
 This project is licensed under the MIT license. See the LICENSE file for more information. [LICENSE](https://github.com/nurullah-arican/SolidPrinciples-DependencyInjection/blob/main/LICENSE)
