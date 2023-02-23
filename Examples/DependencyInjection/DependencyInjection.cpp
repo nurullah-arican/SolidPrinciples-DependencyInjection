@@ -36,6 +36,6 @@ int main() {
 
     // Using the service through the client
     client.useService();
-
+    
     return 0;
 }
