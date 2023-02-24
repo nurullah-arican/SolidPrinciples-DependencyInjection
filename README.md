@@ -39,7 +39,7 @@ To run the examples, a C++ compiler must first be installed. You can then follow
 This project is always open to contribution. You can contribute to the project by adding more examples about Solid principles and dependency injection. To contribute, please open a pull request and explain the examples you include in your description.
 
 ## Licence
-This repository is licensed under the MIT license. See the LICENSE file for details.
+This repository is licensed under the MIT license. See the [LICENSE](https://github.com/nurullah-arican/SolidPrinciples-DependencyInjection/blob/main/LICENSE) file for details.
 
 ## Communication
 If you have any questions or suggestions, please let us know by opening an issue.
